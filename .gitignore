@@ -1,0 +1,35 @@
+# --- Secrets: NEVER commit these ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+.python-version
+
+# --- uv / pip ---
+uv.lock
+
+# --- Local data / generated artifacts (rebuildable) ---
+data/chroma/
+*.sqlite
+*.db
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log

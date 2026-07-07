@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What does Premium auto insurance cover that Standard doesn't?",
+    "reference": "Premium adds zero-deductible glass repair, roadside assistance, and a courtesy car for up to 10 days during repairs, on top of Standard's liability, collision, and theft cover.",
+    "expect": "kb_qa"
+  },
+  {
+    "question": "How long does a standard auto claim take to assess?",
+    "reference": "Standard auto claims are assessed within 5 business days, with payout or repair authorization within 10 business days of assessment.",
+    "expect": "kb_qa"
+  },
+  {
+    "question": "Can I get a refund if I cancel?",
+    "reference": "Yes, a full refund within the 14-day cooling-off period if no claim was made; after that, a prorated refund minus a $25 admin fee.",
+    "expect": "kb_qa"
+  },
+  {
+    "question": "What happens if my payment fails?",
+    "reference": "AcmeInsure retries after 3 days and emails you; after two failures the policy enters a 14-day grace period; if still unpaid it lapses.",
+    "expect": "kb_qa"
+  },
+  {
+    "question": "What is the status of claim CLM-5002?",
+    "reference": "Claim CLM-5002 status is 'Assessor Assigned'.",
+    "expect": "tool_call"
+  },
+  {
+    "question": "What discounts can I combine and is there a cap?",
+    "reference": "Multi-policy (10%), no-claims (up to 30%), and annual payment (5%) discounts stack, but the total is capped at 40%.",
+    "expect": "kb_qa"
+  },
+  {
+    "question": "I want to speak to a human about a complaint.",
+    "reference": "The request should be escalated to a human agent who responds within one business day.",
+    "expect": "escalate"
+  },
+  {
+    "question": "Write me a Python function to sort a list.",
+    "reference": "This is off-topic and should be politely refused.",
+    "expect": "reject"
+  }
+]
