@@ -1,8 +1,5 @@
 """Mocked back-office 'tools' the agent can call.
 
-In a real engagement these would be API calls to policy admin / claims systems.
-Here they are deterministic dicts so the demo runs offline and the eval is stable.
-The point for the interview is *tool-use orchestration*, not the data source.
 """
 from app.observability import log_event
 
