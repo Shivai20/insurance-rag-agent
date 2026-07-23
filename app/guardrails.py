@@ -1,6 +1,6 @@
 """Guardrail helpers.
 
-Maps to TCS's 'responsible agentic AI guardrails: PII detection, hallucination
+Maps to responsible agentic AI guardrails: PII detection, hallucination
 prevention, behavior control'. The actual graph wiring lives in nodes.py; this
 module holds the reusable checks.
 """
