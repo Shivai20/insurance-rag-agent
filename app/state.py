@@ -1,6 +1,6 @@
 """The shared graph state.
 
-Interview distinction to draw clearly:
+
   - STATE (this object) = scratchpad for ONE run, passed node-to-node.
   - MEMORY = the checkpointer persisting state across turns by thread_id (see graph.py).
 
