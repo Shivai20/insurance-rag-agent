@@ -1,6 +1,6 @@
 """Retriever: loads the persisted Chroma index and exposes a retriever.
 
-Interview note: the retriever is the only thing the graph knows about. Swapping
+the retriever is the only thing the graph knows about. Swapping
 Chroma -> pgvector / Pinecone / FAISS happens here and nowhere else.
 """
 import os
