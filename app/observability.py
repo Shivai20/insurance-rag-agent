@@ -3,8 +3,7 @@
 Two things an interviewer wants to see:
   1. Structured (JSON) logs per step, not print().
   2. Per-node latency so you can point at the bottleneck.
-
-This maps to TCS's "AgentOps / real-time observability" language.
+  
 If LANGCHAIN_TRACING_V2=true and a LANGCHAIN_API_KEY is set, LangSmith also
 captures full traces automatically with zero extra code.
 """
