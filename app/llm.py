@@ -1,8 +1,4 @@
 """LLM / embeddings factory.
-
-Interview note: this is the single seam where you'd swap OpenAI for Azure OpenAI,
-Bedrock, or a local Ollama model. Nothing else in the codebase imports the provider
-directly -- they ask this module for a model. That is the 'model tiering' lever too.
 """
 from functools import lru_cache
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
