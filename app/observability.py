@@ -27,9 +27,7 @@ def log_event(event: str, **fields):
 
 def timed_node(name: str):
     """Decorator for LangGraph nodes: logs entry, exit, and latency in ms.
-
-    The latency log line per node is what lets you say in an interview:
-    'retrieval is 80ms, the faithfulness check is 1.2s -- here is my bottleneck.'
+    
     """
     def decorator(fn):
         @wraps(fn)
