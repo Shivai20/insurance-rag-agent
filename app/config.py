@@ -1,7 +1,7 @@
 """Central configuration. One place to change models, paths, and limits.
 
-Interview note: keeping config in one module (not scattered os.getenv calls)
-is what lets you swap providers / vector stores / limits without touching logic.
+keeping config in one module (not scattered os.getenv calls)
+is what lets us swap providers / vector stores / limits without touching logic.
 """
 import os
 from dotenv import load_dotenv
