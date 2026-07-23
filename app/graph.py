@@ -2,7 +2,7 @@
 
 The checkpointer is what turns per-run STATE into cross-turn MEMORY: pass the same
 thread_id and the graph resumes the prior conversation. MemorySaver is in-process;
-in production you swap it for SqliteSaver / PostgresSaver / Redis -- one line.
+in production we swap it for SqliteSaver / PostgresSaver / Redis -- one line.
 """
 from langgraph.graph import StateGraph, START, END
 from langgraph.checkpoint.memory import MemorySaver
